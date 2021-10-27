@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.learncamel.route.SimpleCamelRouteMockTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 3.614 sec <<< FAILURE! - in com.learncamel.route.SimpleCamelRouteMockTest
+testMoveFileMock(com.learncamel.route.SimpleCamelRouteMockTest)  Time elapsed: 0.526 sec  <<< ERROR!
+org.apache.camel.CamelExecutionException: Exception occurred during execution on the exchange: Exchange[ID-DESKTOP-AH2VL3Q-1635246678176-1-1]
+	at org.apache.camel.component.direct.DirectProducer.process(DirectProducer.java:55)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:186)
+	at org.apache.camel.processor.SharedCamelInternalProcessor.process(SharedCamelInternalProcessor.java:86)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:541)
+	at org.apache.camel.impl.ProducerCache$1.doInProducer(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.doInProducer(ProducerCache.java:369)
+	at org.apache.camel.impl.ProducerCache.sendExchange(ProducerCache.java:506)
+	at org.apache.camel.impl.ProducerCache.send(ProducerCache.java:229)
+	at org.apache.camel.impl.DefaultProducerTemplate.send(DefaultProducerTemplate.java:144)
+	at org.apache.camel.impl.DefaultProducerTemplate.sendBodyAndHeader(DefaultProducerTemplate.java:187)
+	at org.apache.camel.impl.DefaultProducerTemplate.sendBodyAndHeader(DefaultProducerTemplate.java:183)
+	at com.learncamel.route.SimpleCamelRouteMockTest.testMoveFileMock(SimpleCamelRouteMockTest.java:52)
+

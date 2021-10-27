@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.learncamel.route.SimpleCamelRouteTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.419 sec <<< FAILURE! - in com.learncamel.route.SimpleCamelRouteTest
+testMoveFile(com.learncamel.route.SimpleCamelRouteTest)  Time elapsed: 3.754 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.learncamel.route.SimpleCamelRouteTest.testMoveFile(SimpleCamelRouteTest.java:58)
+

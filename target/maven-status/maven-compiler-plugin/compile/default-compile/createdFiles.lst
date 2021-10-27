@@ -1,0 +1,7 @@
+com\learncamel\route\OrderRouter$1.class
+com\learncamel\bean\OrderItemStrategy.class
+com\learncamel\LearncamelSpringBootApplication.class
+com\learncamel\domain\Item.class
+com\learncamel\bean\ItemSvc.class
+com\learncamel\domain\Order.class
+com\learncamel\route\OrderRouter.class
